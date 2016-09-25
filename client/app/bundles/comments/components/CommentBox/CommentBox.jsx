@@ -34,7 +34,7 @@ export default class CommentBox extends BaseComponent {
     return (
       <div className="commentBox container">
         <h2>
-          Comments {data.get('isFetching') && 'Loading...'}
+          Comments Mishkin is amazing {data.get('isFetching') && 'Loading...'}
         </h2>
         <p>
           <b>Text</b> supports Github Flavored Markdown.
